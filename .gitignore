@@ -1,0 +1,28 @@
+# Model files and cache
+offload_base/
+offload_reward/
+*.db
+*.sqlite
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.DS_Store
+.idea/
+.vscode/
+
+# Large model files
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Logs
+*.log
+*.out
