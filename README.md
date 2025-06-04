@@ -148,15 +148,3 @@ PromptTunning/
 ├── README.md              # This file
 └── .gitignore            # Git ignore patterns
 ```
-
-## Results
-
-The system automatically discovers prompt variations that lead to better mathematical reasoning and higher accuracy scores. Results are stored in the `results` variable and displayed at the end of execution.
-
-## Contributing
-
-This is a research project for prompt optimization. Feel free to experiment with different:
-- Prompt templates
-- Reward models
-- Problem datasets
-- Optimization strategies
