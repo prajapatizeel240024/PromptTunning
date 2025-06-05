@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import TypedDict
 from langchain_core.runnables import RunnableLambda
 from langgraph.graph import StateGraph, END
-from langgraph.checkpoint.sqlite import SqliteSaver
+# from langgraph.checkpoint.sqlite import SqliteSaver
 from langchain_community.llms import HuggingFacePipeline
 from langchain_core.messages import AIMessage
 from transformers import (
@@ -23,8 +23,8 @@ from langchain_huggingface import HuggingFacePipeline
 
 # ------------------------- model loading -----------------------------
 # Remove quantization entirely for stability
-BASE   = "google/gemma-2-27b-it"
-REWARD = "Skywork/Skywork-Reward-Gemma-2-27B-v0.2"
+BASE   = "/workspace/gemma-2-27b-it"
+REWARD = "/workspace/Skywork-Reward-Gemma-2-27B-v0.2"
 
 # Load base model WITHOUT quantization
 base_tok = AutoTokenizer.from_pretrained(BASE)
