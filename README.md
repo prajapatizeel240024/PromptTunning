@@ -2,7 +2,8 @@
 
 This project implements prompt optimization using LangGraph and reward models to automatically improve prompt templates for mathematical problem solving.
 
-![image](https://github.com/user-attachments/assets/e5e45be3-5efa-4d03-a86c-93e4386e8551)
+![image](https://github.com/user-attachments/assets/930c9ad8-431f-4a14-a05e-ff443b270b77)
+
 
 
 ## Features
