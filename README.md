@@ -2,6 +2,9 @@
 
 This project implements prompt optimization using LangGraph and reward models to automatically improve prompt templates for mathematical problem solving.
 
+![image](https://github.com/user-attachments/assets/e5e45be3-5efa-4d03-a86c-93e4386e8551)
+
+
 ## Features
 
 - **Automated Prompt Optimization**: Uses evolutionary approach to find better prompts
