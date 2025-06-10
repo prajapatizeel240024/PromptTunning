@@ -4,6 +4,7 @@ This project implements prompt optimization using LangGraph and reward models to
 
 ![image](https://github.com/user-attachments/assets/930c9ad8-431f-4a14-a05e-ff443b270b77)
 
+![image](https://github.com/user-attachments/assets/b6052a90-b69f-47d6-9456-cccaccc2a24f)
 
 
 ## Features
